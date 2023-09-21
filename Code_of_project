@@ -1,11 +1,9 @@
 import random #random module
 import string #string module
 
-def generate_password(min_length, numbers=True, special_characters= True): """takes numbers and 
-special_characters as true as default, as these indicates whether the users wishes to have numbers
-or special_characters in their password or not"""
+def generate_password(min_length, numbers=True, special_characters= True): """takes numbers and special_characters as true as default, as these indicates whether the users wishes to have numbers or special_characters in their password or not"""
    
-       #add all letters + digits + special characters to the variable characters   
+   #add all letters + digits + special characters to the variable characters   
     letters= string.ascii_letters 
     digits= string.digits
     special= string.punctuation
